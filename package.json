@@ -1,5 +1,5 @@
 {
-  "name": "profile-nandha",
+  "name": "profile-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,7 +29,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://nandhakumar2002.github.io/profile-web/me",
+  "homepage": "https://nandhakumar2002.github.io/profile-web/",
   "browserslist": {
     "production": [
       ">0.2%",
