@@ -203,7 +203,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 60px;
-  background-color: #ceed46c2;
+  background-color: #fff;
   border-radius: 20px;
 }
 
@@ -223,5 +223,23 @@ nav i {
 
 nav i:hover {
   transform: translateY(-5px);
+}
+
+#about {
+  padding: 5px;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
