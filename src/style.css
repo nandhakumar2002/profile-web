@@ -230,7 +230,7 @@ nav i:hover {
 }
 
 #about h2 {
-  font-size: 36px;
+  font-size: 26px;
   margin-bottom: 20px;
   font-weight: bold;
   text-align: center;
@@ -243,3 +243,77 @@ nav i:hover {
   text-align: left;
 }
 
+.experience {
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.experience-company {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.experience-details {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #777;
+}
+
+.experience-title {
+  font-weight: bold;
+}
+
+.experience-description {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.spacer {
+  width: 20px;
+  height: 0;
+}
+
+.experience a {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.experience a:hover {
+  background-color: #0069d9;
+}
+.download-resume {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-resume-button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.github-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}

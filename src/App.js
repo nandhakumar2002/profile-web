@@ -3,35 +3,10 @@ import './style.css';
 import Githubicon from './Images/github.png';
 import linkedinicon from './Images/linkedin.png';
 import aictebot from './Images/aictebot.png';
-import Rivermonitor from './Images/rivermonitor.png';
-
-const Skills = () => {
-  const skills = [
-    { name: "JavaScript", level: 8 },
-    { name: "React", level: 7 },
-    { name: "HTML/CSS", level:  7},
-    { name: "Python", level: 6 },
-    { name: "Java", level: 6 },
-    { name: "Rest API", level:  6}
-  ];
-
-  return (
-    <section id="skills">
-      <h2>Skills</h2>
-      <div className="skills-container">
-        {skills.map((skill, index) => (
-          <div className="skill" key={index}>
-            <h3 className="skill-name">{skill.name}</h3>
-            <div className="skill-level">
-              <div className="skill-level-bar" style={{ width: `${skill.level * 10}%` }} />
-            </div>
-            <span className="skill-level-value">{skill.level}/10</span>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-};
+import River from './Images/river.png';
+import Experience from './Experience';
+import Skills from './Skills';
+import resume from "./Nandha kumar G.pdf";
 
 function App() {
   return (
@@ -45,7 +20,7 @@ function App() {
           <a href="https://www.linkedin.com/in/nandha-kumar-g-b40038229/" target="_blank">
             <img src={linkedinicon} alt="LinkedIn" height="40" width="40" />
           </a>
-
+          <a href={resume} className="download-resume-button" download>Resume</a>
         </nav>
       </header>
       <main>
@@ -66,28 +41,33 @@ function App() {
             I am a team player who enjoys working with others and am always eager to collaborate on projects to bring out the best results.
             I am dedicated to providing the best possible user experience and strive to create visually appealing and highly functional websites.</p>
         </section>
+        <Skills />
+        <Experience />
         <section id="projects">
           <h2>Featured Projects</h2>
           <div className="projects">
             <div className="project">
-              <img src={Rivermonitor} alt="Project 1" />
+              <img src={River} alt="Project 1" />
               <h3>Real Time River Water Quality Monitoring and Control System</h3>
-              <p>A real-time river water quality monitoring and control system is a system designed to continuously monitor the water quality in a river and make changes to maintain its quality. It uses sensors to measure various parameters, a data collection system to gather the data, a data analysis software to provide real-time information, and a control system to adjust the water quality as needed. The goal is to ensure the water is safe for human consumption, recreation, and other uses.
+              <p>
+                A real-time river water quality monitoring and control system is a system designed to continuously monitor the water quality in a river and make changes to maintain its quality. It uses sensors to measure various parameters, a data collection system to gather the data, a data analysis software to provide real-time information, and a control system to adjust the water quality as needed. The goal is to ensure the water is safe for human consumption, recreation, and other uses.
               </p>
+              <a href="https://github.com/IBM-EPBL/IBM-Project-39637-1660472677" target="_blank" className="github-button">
+                Github Repo
+              </a>
             </div>
             <div className="project">
               <img src={aictebot} alt="Project 2" />
               <h3>AICTE Bot</h3>
               <p>
-                A chatbot designed to solve AICTE FAQs is an artificial intelligence-powered virtual assistant designed to answer frequently asked questions about the All India Council for Technical Education (AICTE). This chatbot can be integrated into the AICTE's official website or a standalone platform to provide quick and convenient assistance to students, educators, and other stakeholders.
-
-                The chatbot uses natural language processing (NLP) and machine learning algorithms to understand the user's queries and provide relevant answers from its database of frequently asked questions. It can also be programmed to handle more complex questions by redirecting the user to a relevant website or department.
-
-                In conclusion, a chatbot designed to solve AICTE FAQs can greatly improve the efficiency and convenience of accessing information related to technical education in India, making it easier for students, educators, and other stakeholders to get the information they need. </p>
+                A Chatbot to solve AICTE FAQs is a conversational AI-powered solution that can answer frequently asked questions related to the All India Council for Technical Education. It can understand natural language inputs from users and provide instant and accurate answers to their queries. The chatbot can be integrated into the AICTE website or any other platform, and it can be used by students, teachers, and other stakeholders to get quick answers to their questions. This chatbot can help reduce the workload of AICTE customer service teams and improve the overall user experience.
+              </p>
+              <a href="https://github.com/nandhakumar2002/aicte-bot" target="_blank" className="github-button">
+                Github Repo
+              </a>
             </div>
           </div>
         </section>
-        <Skills />
         <section id="contact">
           <h2>Get in Touch</h2>
           <form>
