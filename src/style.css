@@ -56,6 +56,12 @@ body {
   margin: 0 auto;
   padding: 2rem;
 }
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 97%;
+    padding: 0.5rem;
+  }
+}
 
 header {
   background-color: rgba(96, 200, 108, 0.677);
