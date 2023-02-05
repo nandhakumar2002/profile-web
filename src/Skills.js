@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.css";
 
-const Skills =() => { const skills = [
+const Skills = () => {
+  const skills = [
     { name: "JavaScript", level: 8 },
     { name: "React", level: 7 },
-    { name: "HTML/CSS", level:  7},
+    { name: "HTML/CSS", level: 7 },
     { name: "Python", level: 6 },
     { name: "Java", level: 6 },
-    { name: "Rest API", level:  6}
+    { name: "Rest API", level: 6 }
   ];
 
   return (

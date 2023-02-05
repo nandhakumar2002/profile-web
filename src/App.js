@@ -9,9 +9,6 @@ import EducationPage from './Education';
 import Skills from './Skills';
 import resume from "./Nandha kumar G.pdf";
 import ContactForm from './Form';
-
-
-
 function App() {
   return (
     <div className="container">
@@ -82,7 +79,7 @@ function App() {
         </section>
       </main>
       <footer>
-        <p>Copyright © 2023 My Portfolio</p>
+        <p>Copyright © 2023 Nandha Kumar G</p>
       </footer>
     </div>
   );

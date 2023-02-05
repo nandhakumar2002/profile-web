@@ -327,21 +327,10 @@ h2.education-table {
   }
 }
   form {
-    width: 80%;
-    margin: 3rem auto;
     background-color: #fff;
     padding: 3.5rem;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  }
-  
-  form h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
   }
   
   form input, form textarea {
@@ -359,25 +348,31 @@ h2.education-table {
     outline: none;
     box-shadow: 0 15px 30px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
-  
-  form button {
-    width: 100%;
-    padding: 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background-color: #333;
-    color: #fff;
-    border: none;
+    .alert {
+    padding: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    transition: all 0.3s ease;
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    }
+  
+  .alert-success {
+    background-color: #dff0d8;
+    border-color: #3c763d;
+    color: #3c763d;
   }
   
-  form button:hover {
-    background-color: #fff;
-    color: #333;
+  .alert-danger {
+    background-color: #f2dede;
+    border-color: #a94442;
+    color: #a94442;
+  }
+  @media (max-width: 767px) {
+     form{      
+    padding: 2.5rem;
+     }
+    form input, form textarea {
+      font-size: 1.1rem;
+    }
   }
   
