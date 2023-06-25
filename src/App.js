@@ -24,13 +24,13 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/articles" element={<Articles />} />
-				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<Notfound />} />
+				<Route path="/profile-web/" element={<Homepage />} />
+				<Route path="/profile-web/about" element={<About />} />
+				<Route path="/profile-web/projects" element={<Projects />} />
+				<Route path="/profile-web/articles" element={<Articles />} />
+				<Route path="/profile-web/article/:slug" element={<ReadArticle />} />
+				<Route path="/profile-web/contact" element={<Contact />} />
+				<Route path="/profile-web*" element={<Notfound />} />
 			</Routes>
 		</div>
 	);

@@ -12,7 +12,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "dns": "^0.2.2",
-    "gh-pages": "^5.0.0",
     "natural": "^6.1.4",
     "net": "^1.0.2",
     "nodemailer": "^6.9.1",
@@ -55,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
